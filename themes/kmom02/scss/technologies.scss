@@ -2,16 +2,19 @@
     display: grid;
     gap: 1rem 2rem;
 
+
 }
 
 .landingpage h1{
     grid-column: span 3;
+    color: $h-color;
 
 
 }
 
 a{
     text-decoration: none;
+    color: $h-color;
     
 }
 
@@ -23,7 +26,7 @@ a{
 }
 
 .box a:hover{
-    color:#fff;
+    color:$title-color;
 
 }
 
@@ -63,7 +66,7 @@ a{
 }
 
 .tech-menu a:hover{
-    color: #fff;
+    color: $title-color;
 }
 
 .tech-content{
@@ -74,6 +77,7 @@ a{
 @media (max-width: 600px) {
     .landingpage{
         display: grid;
+        text-align: center;
         gap: 1rem 2rem;
     }
 
@@ -88,6 +92,7 @@ a{
         border: 1px solid #000;
         padding: 1rem;
         grid-column:  span 1;
+        width: 95%;
 
     }
     

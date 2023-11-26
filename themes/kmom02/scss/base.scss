@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: $background-color;
+    color: $p-color;
 }
 
 .main {
@@ -39,6 +40,7 @@ body {
 
 img {
     max-width: 100%;
+    filter: $img-filter;
     /* width: 100px;
     height: 100px; */
 }
@@ -82,4 +84,11 @@ pre code {
     margin: 0 auto;
     width: 250px;
     height: 250px;
+}
+
+.color-img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
 }

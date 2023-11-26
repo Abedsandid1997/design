@@ -27,7 +27,7 @@
 }
 
 .title * {
-    color: #111;
+    color: $title-color;
 }
 
 .title p {
@@ -37,9 +37,11 @@
 .nav a{
     font-size: 2rem;
     text-decoration: none;
+    color: $nav-color !important;
 
 }
 
+
 .nav a:hover{
-    color:#FFF;
+    color:$p-color !important;
 }

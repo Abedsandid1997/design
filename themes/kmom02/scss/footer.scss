@@ -3,14 +3,14 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 4px solid #F0F;
-    background-color:#222 ;
-    color: #fff;
+    border-top: 4px solid $footer-line-color;
+    background-color:$background-color ;
+    color: $footer-line-color ;
     padding: 4rem 6rem;
 }
 
 .footer a {
-    color: #FFF;
+    color: $footer-line-color;
 }
 
 .footer .social {
